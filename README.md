@@ -21,6 +21,9 @@
 - Using the data informations i create a table schema for each of the six CSV files as well as load the data.
 
 ```Mysql
+DROP DATABASE IF EXISTS FinalProject;
+USE FinalProject;
+
 DROP TABLE IF EXISTS DEPARTMENT;
 -- Create DEPARTMENT Table
 CREATE TABLE DEPARTMENT(dept_no varchar(20) NOT NULL,dept_name varchar(20),PRIMARY KEY(dept_no));
