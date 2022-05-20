@@ -1,4 +1,4 @@
-# -----------------------------------Data Engineering Capstone Project-----------------------------------
+# ----------------------Data Engineering Capstone Project----------------------
 ## Business Objectives
 - Exploratory Data Analysis of provided Data Set.
 - Using the data set to come up with meaningful insights.
