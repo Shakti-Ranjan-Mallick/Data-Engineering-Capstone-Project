@@ -1,6 +1,5 @@
-#                                     Data Engineering Capstone Project
-
-## Project Description
+#-----------------------------------Data Engineering Capstone Project-----------------------------------
+## Business Objectives
 - Exploratory Data Analysis of provided Data Set.
 - Using the data set to come up with meaningful insights.
 - Using Machine Learning to come up with the various reasons for the employees leaving the company.
