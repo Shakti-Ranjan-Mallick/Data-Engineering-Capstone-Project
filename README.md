@@ -4,7 +4,6 @@
 - Exploratory Data Analysis of provided Data Set.
 - Using the data set to come up with meaningful insights.
 - Using Machine Learning to come up with the various reasons for the employees leaving the company.
-- 
 ## Technology Stack:
 - MySQL (to create database)
 - Linux Commands
@@ -13,8 +12,6 @@
 - Hive (to create database)
 - Impala (to perform the EDA)
 - SparkSQL (to perform the EDA)
-
-
 ## Data Modeling
 
 - Inspect the CSVs and sketch out an ERD of the tables.
