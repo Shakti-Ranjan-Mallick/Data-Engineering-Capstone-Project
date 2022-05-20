@@ -1,9 +1,11 @@
 #                                     Data Engineering Capstone Project
 
 ## Project Description
-In this project,I create end to end data pipeline and analyzing the data.
-
-### Technology Stack:
+- Exploratory Data Analysis of provided Data Set.
+- Using the data set to come up with meaningful insights.
+- Using Machine Learning to come up with the various reasons for the employees leaving the company.
+- 
+## Technology Stack:
 - MySQL (to create database)
 - Linux Commands
 - Sqoop (Transfer data from MySQL Server to HDFS/Hive)
