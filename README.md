@@ -1,4 +1,4 @@
-# Data Engineering Capstone Project
+#                                     Data Engineering Capstone Project
 
 ## Project Description
 In this project,I create end to end data pipeline and analyzing the data.
@@ -518,7 +518,7 @@ y_pred_test.filter(y_pred_test.label == y_pred_test.prediction).count() / float(
 ### PipeLine
 
 ``` Pyspark
-from pyspark.ml.feature import StringIndexer, OneHotEncoder, VectorAssembler,OneHotEncoderEstimator
+from pyspark.ml.feature import StringIndexer, OneHotEncoder, VectorAssembler
 from pyspark.ml import Pipeline
 from pyspark.ml.classification import LogisticRegression
 
@@ -526,7 +526,7 @@ from pyspark.ml.classification import LogisticRegression
 indexers = [StringIndexer(inputCol=c, outputCol="{}_idx".format(c)) for c in categorical_features]
 
 ## encode the categorical features
-encoders = [ OneHotEncoderEstimator(
+encoders = [ OneHotEncoder(
       inputCols=idx.getOutputCol(),
       outputCols="{0}_enc".format(idx.getOutputCol())) for idx in indexers]
 
