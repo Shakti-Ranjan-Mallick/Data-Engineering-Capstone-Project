@@ -264,7 +264,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-sc = SparkContext('local','Spark SQL');
+sc = SparkContext('local','Capstone Project');
 Sqlcontext = SQLContext(sc);
 ```
 #### Create DataFrames
