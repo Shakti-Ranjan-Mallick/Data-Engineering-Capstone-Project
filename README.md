@@ -1,10 +1,10 @@
 # Data Engineering Capstone Project for employee data analysis of one well known company
 ## This project has two Objectives
-### Business Objective
+#### Business Objective
 - Exploratory Data Analysis of provided Data Set.
 - Using the data set to come up with meaningful insights.
 - Using Machine Learning to come up with the various reasons for the employees leaving the company.
-### Data Engineering Objective
+#### Data Engineering Objective
 - Creating an end to end pipeline by integrating all the Big data technologies
 ## Technology Stack:
 - MySQL (to create database)
